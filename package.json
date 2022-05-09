@@ -1,5 +1,6 @@
 {
   "name": "Websleak",
+  "description": "A creative Agency that focuses on creating mind blowing digital experiences",
   "private": true,
   "scripts": {
     "dev": "next dev",

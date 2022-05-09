@@ -76,29 +76,6 @@ const Navbar = ({ lr, nr, theme }) => {
               </Link>
             </li>
           </ul>
-          {/*
-          <div className="search">
-            <span className="icon pe-7s-search cursor-pointer"></span>
-            <div className="search-form text-center custom-font">
-              <Formik
-                initialValues={{
-                  search: "",
-                }}
-                onSubmit={async (values) => {
-                  alert(JSON.stringify(values, null, 2));
-                  // Reset the values
-                  values.search = "";
-                }}
-              >
-                {({ errors, touched }) => (
-                  <Form>
-                    <Field type="text" name="search" placeholder="Search" />
-                  </Form>
-                )}
-              </Formik>
-              <span className="close pe-7s-close cursor-pointer"></span>
-            </div>
-          </div> */}
         </div>
       </div>
     </nav>
