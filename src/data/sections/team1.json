@@ -1,0 +1,42 @@
+[
+  {
+    "id": 2,
+    "image": "/img/team/noor-profile.png",
+    "name": "Shaik Noorullah",
+    "title": "Founder & Creative Developer",
+    "facebook": "https://www.facebook.com/prince.innocentspyteam/",
+    "instagram": "https://www.instagram.com/shaik.noorullah/",
+    "twitter": "",
+    "linkedin": ""
+  },
+  {
+    "id": 3,
+    "image": "/img/team/umar-profile.png",
+    "name": "Umar Abdulaziz",
+    "title": "Co-founder & Operations Manager",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/aziz_94abdul/",
+    "twitter": "",
+    "linkedin": ""
+  },
+  {
+    "id": 4,
+    "image": "/img/team/abid-profile.png",
+    "name": "Md Abid Majid",
+    "title": "Senior UX Designer",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/abiduiux/",
+    "twitter": "",
+    "linkedin": ""
+  },
+  {
+    "id": 5,
+    "image": "/img/team/5.jpg",
+    "name": "Legender Mao",
+    "title": "3D Visualization",
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": ""
+  }
+]

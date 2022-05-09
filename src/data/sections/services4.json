@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "UI/UX design",
+        "icon": "pe-7s-gleam",
+        "content": "We design user-experiences for web and mobile that are not only aesthetically pleasing but also highly intuitive."
+    },
+    {
+      "id": 2,
+      "title": "Web & App Development",
+      "icon": "pe-7s-phone",
+      "content": "We not only design user interfaces but we also develop them thanks to our highly specialzed team of developers."
+    }
+    
+]

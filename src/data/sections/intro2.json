@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "first": "Unique",
+      "second": "brand Stories"
+    },
+    "image": "/img/slid/slide-1.png"
+  },
+  {
+    "id": 2,
+    "title": {
+      "first": "Digital",
+      "second": "Design Awards"
+    },
+    "image": "/img/slid/slide-2.png"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Original",
+      "second": "Solutions"
+    },
+    "image": "/img/slid/slide-3.png"
+  },
+  {
+    "id": 3,
+    "title": {
+      "first": "Original",
+      "second": "Solutions"
+    },
+    "image": "/img/slid/slide-4.png"
+  }
+]
