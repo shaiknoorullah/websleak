@@ -207,6 +207,15 @@ section.team.section-padding {
     padding: 50px 0;
   }
 
+  .works-header.fixed-slider.hfixd.valign{
+    padding-left: 2.5rem;
+  }
+  .form.md-mb50{
+    padding-left: 2.5rem;
+  }
+  .cont-info{
+    padding-left: 2.5rem;
+  }
 }
 
 
