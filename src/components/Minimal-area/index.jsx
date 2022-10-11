@@ -25,7 +25,7 @@ const MinimalArea = () => {
             </div>
           </div>
           <div className="col-lg-6 valign">
-            <div className="content">
+            <div className=" about content">
               <Split>
                 <h4
                   className="wow custom-font words chars splitting"

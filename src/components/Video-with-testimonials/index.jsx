@@ -30,7 +30,7 @@ const VideoWithTestimonials = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="vid-area">
-                <div className="vid-icon">
+                {/* <div className="vid-icon">
                   {typeof window !== "undefined" && (
                     <ModalVideo
                       channel="vimeo"
@@ -54,7 +54,7 @@ const VideoWithTestimonials = () => {
                       </span>
                     </div>
                   </a>
-                </div>
+                </div> */}
 
                 <div className="cont">
                   <h3 className="wow" data-splitting>

@@ -21,7 +21,7 @@ const SkillsCircle = ({ subBG, theme }) => {
         subBG ? "sub-bg" : ""
       }`}
     >
-      <div className="container">
+      <div className=" circles container">
         <div className="row-progess">
           <div className="col-lg-7">
             <div className="">

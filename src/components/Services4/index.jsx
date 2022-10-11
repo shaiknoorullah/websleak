@@ -23,7 +23,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             <span className="tbg">Services</span>
           </div>
         )}
-        <div className="row">
+        <div className=" services row">
           {services4Data.map((item, index) => (
             <div className="col-lg-4" key={item.id}>
               <div
