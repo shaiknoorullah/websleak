@@ -10,16 +10,17 @@ const Clients1 = ({ theme, subBG }) => {
     <section className={`clients section-padding ${subBG ? 'sub-bg' : ''}`}>
       <div className="container">
         <div className="row">
+        
           <div className="col-lg-4 valign">
             <div className="sec-head custom-font mb-0">
               <h6>Clients</h6>
-              <h3>
+              <h3 className="ourClients">
                 Our <br /> Clients
               </h3>
             </div>
           </div>
           <div className="col-lg-8">
-            <div>
+            <div className="clients-columns">
               <div className="row bord">
                 {first.map((item) => (
                   <div key={item.id} className="col-md-3 col-6 brands">

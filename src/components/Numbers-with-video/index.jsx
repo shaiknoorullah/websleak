@@ -22,7 +22,7 @@ const NumbersWithVideo = () => {
                 <div className="item no-bord">
                   <span className="icon pe-7s-smile"></span>
                   <h3 className="custom-font">
-                    <span className="count">2400</span>
+                    <span className="count">2</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
@@ -35,7 +35,7 @@ const NumbersWithVideo = () => {
                 <div className="item">
                   <span className="icon pe-7s-portfolio"></span>
                   <h3 className="custom-font">
-                    <span className="count">133</span>
+                    <span className="count">2</span>
                   </h3>
                   <Split>
                     <p className="wow txt words chars splitting" data-splitting>
@@ -44,7 +44,7 @@ const NumbersWithVideo = () => {
                   </Split>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                 <div className="item">
                   <span className="icon pe-7s-cloud-download"></span>
                   <h3 className="custom-font">
@@ -69,11 +69,13 @@ const NumbersWithVideo = () => {
                     </p>
                   </Split>
                 </div>
-              </div>
-            </div>
+              </div>*/}
+            </div> 
           </div>
         </div>
-        <div className="showreel">
+
+        {/* VIDEO  */}
+        {/* <div className="showreel">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -118,8 +120,8 @@ const NumbersWithVideo = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </section>
   );

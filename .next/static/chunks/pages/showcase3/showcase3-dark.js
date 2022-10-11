@@ -1451,7 +1451,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"title":{"first":"Hoodie","second":"Jacket"},"image":"/img/portfolio/full/workSlide-1.png","sub":"Design & development"},{"id":2,"title":{"first":"Eminem","second":"Style"},"image":"/img/portfolio/full/workSlide-2.png","sub":"Design"},{"id":3,"title":{"first":"Black","second":"Panther"},"image":"/img/portfolio/full/workSlide-3.png","sub":"Design"},{"id":4,"title":{"first":"Secret","second":"Office"},"image":"/img/portfolio/full/workSlide-4.png","sub":"Design"}]');
+module.exports = JSON.parse('[{"id":1,"title":{"first":"Proficient","second":"Now"},"image":"/img/portfolio/full/workSlide-1.png","sub":"Design & development"},{"id":2,"title":{"first":"Completely","second":""},"image":"/img/portfolio/full/workSlide-2.png","sub":"Design"}]');
 
 /***/ })
 

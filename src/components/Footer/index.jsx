@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>Sign up for more updates!</p>
               <Formik
                 initialValues={{
@@ -98,7 +98,7 @@ const Footer = () => {
                 )}
               </Formik>
             </div>
-            <div className="insta">
+            {/* <div className="insta">
               <h6 className="custom-font stit simple-btn">Instagram Post</h6>
               <div className="insta-gallary">
                 <a href="#0">
@@ -111,7 +111,7 @@ const Footer = () => {
                   <img src="/img/insta/3.jpg" alt="" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyrights text-center">
