@@ -5807,7 +5807,7 @@ body {
   }
   .min-area .content,
   .min-area .img {
-    padding: 120px 0;
+    padding: 2rem 0;
   }
   .services .rtwo > div:nth-of-type(2),
   .services .rone > div:nth-of-type(2) {
