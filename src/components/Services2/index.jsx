@@ -29,7 +29,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-camera"></span>
               <h6>
-                Product <br /> Photography
+                 <br /> UI UX
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -69,8 +69,9 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-diskette"></span>
               <h6>
-                Document <br /> Legal Policy
-              </h6>
+              <br />
+                 Marketing           
+                     </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
                   <a className="more">
@@ -88,7 +89,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-help2"></span>
               <h6>
-                Managing <br /> Community
+                 <br /> Branding
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -107,7 +108,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-arc"></span>
               <h6>
-                Coustomer <br /> Engagement
+                Product <br /> Development
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">

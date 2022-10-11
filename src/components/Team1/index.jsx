@@ -76,7 +76,7 @@ class Team1 extends React.Component {
               >
                 {team1Data.map((item) => (
                   <div
-                    className="item wow fadeInUp"
+                    className="teams item wow fadeInUp"
                     data-wow-delay=".3s"
                     key={item.id}
                   >

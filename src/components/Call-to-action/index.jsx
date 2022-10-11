@@ -8,7 +8,9 @@ const CallToAction = ({ img, theme, subBG }) => {
       className={`call-action section-padding ${subBG ? "sub-bg" : ""} bg-img`}
       style={{ backgroundImage: `url(${img ? img : "/img/pattern.png"})` }}
     >
+    
       <div className="container">
+    <div className="aboutYourProj">
         <div className="row">
           <div className="col-md-8 col-lg-9">
             <div className="content sm-mb30">
@@ -25,20 +27,22 @@ const CallToAction = ({ img, theme, subBG }) => {
               </Split>
             </div>
           </div>
-
+{/* <div className="getInTouch"> */}
           <div className="col-md-4 col-lg-3 valign">
-            <Link href="/contact/contact-dark">
+            <Link  href="/contact/contact-dark">
               <a
                 className={`btn-curve ${
                   theme == "light" ? "btn-blc" : "btn-lit"
                 } wow fadeInUp`}
                 data-wow-delay=".5s"
               >
-                <span>Get In Touch</span>
+                <span >Get In Touch</span>
               </a>
             </Link>
           </div>
+          {/* </div> */}
         </div>
+      </div>
       </div>
     </section>
   );

@@ -35,11 +35,11 @@ const ProjectDetails2Dark = () => {
         <ProjectDetails2Introduction />
         <ProjectDetails2Images />
         <ProjectDetailsDescription />
-        <ProjectDetailsVideo
+        {/* <ProjectDetailsVideo
           videoBackground="/img/portfolio/project2/bg.jpg"
           videoType="vimeo"
           videoId={127203262}
-        />
+        /> */}
         <NextProject
           projectImage="/img/portfolio/project1/bg.jpg"
           projectTitle="Natural plus modern."

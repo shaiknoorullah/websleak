@@ -1,140 +1,164 @@
 .blog-crv .item {
-  display: flex;
-  align-items: center;
-  height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
+
 .block-sec .testim-box .slick-dots li button {
-  display: block;
-  opacity: 0;
-  width: 0;
-  height: 0;
+    display: block;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
+
 .slider .social-icon a {
-  margin: 0 3px;
+    margin: 0 3px;
 }
+
 .navbar .navbar-nav .nav-link {
-  text-transform: capitalize;
+    text-transform: capitalize;
 }
+
 .navbar .navbar-nav .nav-link,
 .video .vid .vid-butn .icon,
 .video-wrapper .vid .vid-butn .icon {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 .block-sec .vid-area {
-  z-index: 99;
+    z-index: 99;
 }
+
 .div-tooltip-tit,
 .div-tooltip-sub {
-  display: block;
-  padding: 0;
+    display: block;
+    padding: 0;
 }
+
 section.testimonials {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .contact-page .pages-header {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .CircularProgressbar {
-  width: 110px;
-  height: 110px;
+    width: 110px;
+    height: 110px;
 }
+
 .slick-prev,
 .slick-next {
-  display: none !important;
+    display: none !important;
 }
+
 body .slick-dots li button {
-  display: block !important;
-  opacity: 0 !important;
-  width: 0 !important;
-  height: 0 !important;
+    display: block !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
 }
+
 .team .navs span.next.cursor-pointer {
-  margin: 0 7px;
+    margin: 0 7px;
 }
+
 .projdtal .justified-gallery a {
-  width: 100%;
-  margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 15px;
 }
+
 .projdtal .justified-gallery img {
-  min-height: 440px;
-  height: 440px;
-  object-fit: cover;
-  width: 100%;
+    min-height: 440px;
+    height: 440px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .projdtal .justified-gallery .big-img {
-  min-height: 700px;
-  height: 700px;
+    min-height: 700px;
+    height: 700px;
 }
+
 .topnav .menu-icon {
-  display: flex;
+    display: flex;
 }
+
+.intro-section.section-padding {
+    margin-bottom: 5rem;
+}
+
 @media screen and (max-width: 991px) {
-  .collapse {
-    display: block;
-    height: 0;
-    padding: 0;
-    opacity: 0;
-  }
-  .navbar .navbar-collapse.show-with-trans {
-    opacity: 1;
-    padding: 10px 15px;
-    height: auto;
-    transition: all 0.3s linear;
-  }
+    .collapse {
+        display: block;
+        height: 0;
+        padding: 0;
+        opacity: 0;
+    }
+    .navbar .navbar-collapse.show-with-trans {
+        opacity: 1;
+        padding: 10px 15px;
+        height: auto;
+        transition: all 0.3s linear;
+    }
 }
+
 section.next-prog {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .hideX #preloader {
-  display: none !important;
-  z-index: -1111111;
-  height: 0;
-  width: 0;
-  overflow: hidden;
+    display: none !important;
+    z-index: -1111111;
+    height: 0;
+    width: 0;
+    overflow: hidden;
 }
+
 .hideX .pace {
-  display: none !important;
+    display: none !important;
 }
 
 #ieatmaps iframe {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
 section.team.section-padding {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 340px) {
-  .item.wow.fadeInUp{
+  .teams.item.wow.fadeInUp{
     max-width: 335px;
     max-height: 550px;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
   }
 }
 
 @media (min-width: 340px) and (max-width: 380px) {
-  .item.wow.fadeInUp{
+  .teams.item.wow.fadeInUp{
     max-width: 375px;
     max-height: 550px;
-    padding-left: 2.5rem;
+    /* padding-left: 2.5rem; */
   }
 }
 
 @media (min-width: 380px) and (max-width: 480px) {
-  .item.wow.fadeInUp{
+  .teams.item.wow.fadeInUp{
     max-width: 400px;
     max-height: 550px;
-    padding-left: 3.5rem;
+    /* padding-left: 3.5rem; */
   }
 }
 
 /* max-width: 900px */
 
 @media screen and (max-width: 900px) {
-  div.cont.text-center{
-    padding-left: 2rem;
-  }
+  /* div.cont.text-center{
+    /* padding-left: 2rem; */
+  /* }  */
 
   .pages-header .cont h1 {
     font-size: 45px;
@@ -161,7 +185,7 @@ section.team.section-padding {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding-left: 2.25rem;
+    /* padding-left: 2.25rem; */
     gap: 2rem;
     row-gap: 1rem;
     justify-content: center;
@@ -178,9 +202,9 @@ section.team.section-padding {
     padding: 60px 0;
   } 
 
-  .background.bg-img.section-padding.pb-0{
-    padding-left: 2.5rem;
-  }
+  /* .background.bg-img.section-padding.pb-0{
+    /* padding-left: 2.5rem; */
+  /* } */ */
 
   .circles.container{
     padding-left: 3rem;
@@ -190,9 +214,9 @@ section.team.section-padding {
     padding-left: 1.5rem;
   }
 
-  .block-sec.testim-box{
+  /* .block-sec.testim-box{
     padding: 40px 20px
-  }
+  } */
 
   .team.navs.prev, .team.navs.next{
     width: 40px;
@@ -207,7 +231,7 @@ section.team.section-padding {
     padding: 50px 0;
   }
 
-  .works-header.fixed-slider.hfixd.valign{
+  /* .works-header.fixed-slider.hfixd.valign{
     padding-left: 2.5rem;
   }
   .form.md-mb50{
@@ -215,7 +239,7 @@ section.team.section-padding {
   }
   .cont-info{
     padding-left: 2.5rem;
-  }
+  } */
 }
 
 
@@ -290,4 +314,156 @@ section.team.section-padding {
   }
 
 
+  .justified-gallery {
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  .bigImage {
+    padding-right: -1rem;
+  } 
 }
+
+@media screen and (min-width: 990px) {
+    /* .caption.dig {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 15rem;
+    } */
+    h1.words.chars.splitting {
+        padding-left: 4rem;
+    }
+    a.simple-btn.mt-50 {
+        padding-left: 4rem;
+    }
+    ul.slick-dots {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    div.author {
+        margin-bottom: 4rem;
+    }
+    .clients-columns {
+        /* margin-left: 1rem; */
+        padding-bottom: 8rem;
+    }
+    .ourClients {
+        margin-bottom: 7rem;
+    }
+    .aboutYourProj {
+        margin-bottom: 3rem;
+    }
+    .intro-section.section-padding {
+        margin-bottom: 7rem;
+    }
+    .next-prog.section-padding {
+        margin-top: -7rem;
+        margin-bottom: 7rem;
+    }
+    .imagesSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .portfolio {
+        width: 100%;
+        max-width: 1500px;
+    }
+    .projdtal {
+        width: 100%;
+        max-width: 1500px;
+    }
+    .services.section-padding {
+        margin-right: 2rem;
+        margin-bottom: 8rem;
+    }
+    .slic-item {
+        padding-right: 2rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+  h1.words.chars.splitting {
+    padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      a.simple-btn.mt-50 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .services.section-padding {
+        margin-right: 9px;
+      }
+      .gallery.full-width {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-left: 1.9rem;
+      }
+      .filter {
+        margin-left: 2rem;
+    }
+    .gallery.full-width {
+        margin-right: 5px;
+        margin-top: 2rem;
+        max-width: 1300px;
+      }
+      .block-sec.container {
+        margin-right: 3rem;
+      }
+      .container.position-re {
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+        padding-right: 3rem;
+        margin-bottom: 6rem;
+    }
+    ul.slick-dots {
+      margin-left: 0.5rem;
+      margin-top: 2rem;
+    }
+    div.author {
+      margin-bottom: 2rem;
+    }
+    .clients-columns {
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        padding-right: 2rem;
+      }
+    .col-md-4.col-lg-3.valign.hello {
+        margin-bottom: 3rem;
+      }
+    .copyrights.text-center {
+        margin-right: 2rem;
+        margin-top: -2rem;
+    }
+    .number-sec {
+        margin-top: -7rem;
+        margin-bottom: -6rem;
+      }
+    .aboutYourProj {
+      margin-bottom: 4rem;
+    }
+    .extra-text {
+      margin-right: 1rem;
+    }
+    .next-prog.section-padding {
+        margin-top: -7rem;
+        margin-bottom: 7rem;
+    }
+    .slic-item {
+        padding-right: 1rem;
+      }
+      .block-sec {
+        margin-right: 1rem;
+      }
+      .services.section-padding {
+        margin-right: 1.3rem;
+      }
+    .blc-sec.section-padding.pb-0 {
+        margin-right: 1rem;
+      }
+    }

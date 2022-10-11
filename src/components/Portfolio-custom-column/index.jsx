@@ -21,7 +21,8 @@ const PortfolioCustomColumn = ({
     }
   }, [pageLoaded]);
   return (
-    <section className="portfolio section-padding pb-70">
+    <div className="imagesSection">
+    <section className="portfolio">
       {!hideSectionTitle && (
         <div className="container">
           <div className="sec-head custom-font">
@@ -105,6 +106,7 @@ const PortfolioCustomColumn = ({
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

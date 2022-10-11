@@ -3,6 +3,7 @@ import React from "react";
 
 const ProjectDetails2Images = () => {
   return (
+    <div className="imagesSection">
     <section className="projdtal">
       <h2 style={{display: 'none'}}> &nbsp; </h2>
       <div className="container-fluid">
@@ -30,7 +31,7 @@ const ProjectDetails2Images = () => {
               </a>
             </div>
             <div className="col-12">
-              <a href="img/portfolio/project2/7.jpg">
+              <a className="bigImage" href="img/portfolio/project2/7.jpg">
                 <img alt="" src="/img/portfolio/project2/7.jpg" className="big-img" />
               </a>
             </div>
@@ -38,6 +39,7 @@ const ProjectDetails2Images = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
