@@ -34,10 +34,13 @@ const Contact = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} />
+      <div className="contactPadding">
       <ContactHeader sliderRef={fixedHeader} />
+      </div>
       <div className="main-content" ref={MainContent}>
         <ContactWithMap />
       </div>
+      
     </DarkTheme>
   );
 };
