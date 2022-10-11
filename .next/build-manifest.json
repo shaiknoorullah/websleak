@@ -11,10 +11,15 @@
   ],
   "lowPriorityFiles": [
     "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/development/_ssgManifest.js",
+    "static/development/_middlewareManifest.js"
   ],
-  "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,22 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-<<<<<<< HEAD
-    "/project-details2/project-details2-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/project-details2/project-details2-dark.js"
-    ],
-    "/showcase3/showcase3-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/showcase3/showcase3-dark.js"
-=======
     "/about/about-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/about/about-dark.js"
->>>>>>> a43208e0523d298a306cbb041bf727cc65657d71
     ]
   },
   "ampFirstPages": []
