@@ -9,9 +9,9 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
         withBG ? "sub-bg" : ""
       }`}
     >
-      <div className="container">
+      <div className="containers">
         {!withOutTitle && (
-          <div className="sec-head custom-font text-center">
+          <div className="sec-head custom-font text-centers">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
               Best Features
             </h6>
@@ -23,6 +23,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             <span className="tbg">Services</span>
           </div>
         )}
+        <div className="servicesDesign">
         <div className=" services row">
           {services4Data.map((item, index) => (
             <div className="col-lg-4" key={item.id}>
@@ -41,6 +42,7 @@ const Services4 = ({ withBG, withPadding, halfBG, withOutTitle }) => {
             </div>
           ))}
         </div>
+            </div>
       </div>
       {halfBG && <div className="half-bg bottom"></div>}
     </section>

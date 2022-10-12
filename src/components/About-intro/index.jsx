@@ -12,6 +12,10 @@ const AboutIntro = () => {
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8">
+          <div className="aboutWhoP">
+
+
+
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
@@ -23,6 +27,7 @@ const AboutIntro = () => {
                 </p>
               </Split>
             </div>
+          </div>
           </div>
         </div>
       </div>

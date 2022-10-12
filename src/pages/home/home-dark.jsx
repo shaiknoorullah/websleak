@@ -41,7 +41,7 @@ const Homepage2 = () => {
       <NumbersWithVideo/>
       <Testimonials1 />
       <Clients1 theme="dark" subBG />
-      <CallToAction />
+      <CallToAction subBG />
       <Footer />
     </DarkTheme>
   );

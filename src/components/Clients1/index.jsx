@@ -7,6 +7,7 @@ const Clients1 = ({ theme, subBG }) => {
   var first = Clients1Data.slice(0, Clients1Data.length / 2);
   var second = Clients1Data.slice(4, Clients1Data.length);
   return (
+    <div className="ourclientdMain">
     <section className={`clients section-padding ${subBG ? 'sub-bg' : ''}`}>
       <div className="container">
         <div className="row">
@@ -113,6 +114,7 @@ const Clients1 = ({ theme, subBG }) => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

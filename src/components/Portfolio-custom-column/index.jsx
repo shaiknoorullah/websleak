@@ -89,6 +89,7 @@ const PortfolioCustomColumn = ({
                     </a>
                   </Link>
                 </div>
+                <div className="caption">
                 <div className="cont">
                   <h6>{item.title}</h6>
                   <span>
@@ -99,6 +100,7 @@ const PortfolioCustomColumn = ({
                       </React.Fragment>
                     ))}
                   </span>
+                </div>
                 </div>
               </div>
             ))}
