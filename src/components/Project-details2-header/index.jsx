@@ -27,7 +27,9 @@ const ProjectDetails2Header = () => {
 						<div className="item mt-30">
 							<h6>Client</h6>
 							<p>
-								<a href="#0">Envato.com</a>
+								<a href="https://www.proficientnow.com">
+									proficientnow.com
+								</a>
 							</p>
 						</div>
 					</div>
