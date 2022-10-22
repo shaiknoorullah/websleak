@@ -21,7 +21,7 @@ const Clients1 = ({ theme, subBG }) => {
           </div>
           <div className="col-lg-8">
             <div className="clients-columns">
-              <div className="row bord">
+              <div className="row bord clienty">
                 {first.map((item) => (
                   <div key={item.id} className="col-md-3 col-6 brands">
                     <div
@@ -58,7 +58,7 @@ const Clients1 = ({ theme, subBG }) => {
                   </div>
                 ))}
               </div>
-              <div className="row">
+              <div className="row clienty ">
                 {second.map((item) => (
                   <div
                     key={item.id}

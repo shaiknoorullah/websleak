@@ -82,12 +82,12 @@ const IntroWithSlider2 = () => {
                   style={{ backgroundImage: `url(${slide.image})` }}
                   data-overlay-dark="6"
                 >
-                  <div className="container">
+                  <div className="container  ">
                     <div className="row">
-                      <div className="col-lg-12">
-                        <div className="caption dig">
+                      <div className="col-lg-12  ">
+                        <div className="caption dig sliderText ">
                           <Split>
-                            <h1 className="words chars splitting">
+                            <h1 className="words chars splitting  ">
                               {typeof slide.title === "object" ? (
                                 <>
                                   {slide.title.first}
@@ -101,7 +101,7 @@ const IntroWithSlider2 = () => {
                             </h1>
                           </Split>
                           <Link href="/showcase3/showcase3-dark">
-                            <a className="simple-btn mt-50">
+                            <a className="simple-btn mt-50 ">
                               <span>Discover Works</span>
                             </a>
                           </Link>

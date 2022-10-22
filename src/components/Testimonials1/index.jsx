@@ -109,7 +109,7 @@ class Testimonials1 extends React.Component {
                             </div>
                           </>
                         ) : (
-                          <>
+                          <div className="testimonialAuthor">
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
@@ -119,7 +119,7 @@ class Testimonials1 extends React.Component {
                             <span className="author-details">
                               Co-founder, Colabrio
                             </span>
-                          </>
+                          </div>
                         )}
                       </div>
                     </div>
@@ -152,7 +152,7 @@ class Testimonials1 extends React.Component {
                             </div>
                           </>
                         ) : (
-                          <>
+                          <div className="testimonialAuthor">
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
@@ -162,7 +162,7 @@ class Testimonials1 extends React.Component {
                             <span className="author-details">
                               Co-founder, Colabrio
                             </span>
-                          </>
+                          </div>
                         )}
                       </div>
                     </div>
@@ -195,7 +195,7 @@ class Testimonials1 extends React.Component {
                             </div>
                           </>
                         ) : (
-                          <>
+                          <div className="testimonialAuthor">
                             <div className="img">
                               <img src="/img/clients/1.jpg" alt="" />
                             </div>
@@ -205,7 +205,7 @@ class Testimonials1 extends React.Component {
                             <span className="author-details">
                               Co-founder, Colabrio
                             </span>
-                          </>
+                          </div>
                         )}
                       </div>
                     </div>

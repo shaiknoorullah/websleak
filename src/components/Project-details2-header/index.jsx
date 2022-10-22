@@ -9,9 +9,9 @@ const ProjectDetails2Header = () => {
       data-overlay-dark="4"
     >
       <div className="container">
-        <div className="row">
+        <div className="row  ">
           <div className="col-lg-7 col-md-9">
-            <div className="cont">
+            <div className="cont headerWrap ">
               <h6>art &amp; illustration</h6>
               <h2>Inspiring new space.</h2>
             </div>
