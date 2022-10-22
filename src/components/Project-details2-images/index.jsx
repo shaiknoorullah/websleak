@@ -4,41 +4,48 @@ import React from "react";
 const ProjectDetails2Images = () => {
   return (
     <div className="imagesSection">
-    <section className="projdtal">
-      <h2 style={{display: 'none'}}> &nbsp; </h2>
-      <div className="container-fluid">
-        <div className="justified-gallery">
-          <div className="row">
-            <div className="col-md-3 pr-0">
-              <a href="img/portfolio/project2/1.jpg">
-                <img alt="" src="/img/portfolio/project2/1.jpg" />
-              </a>
-            </div>
-            <div className="col-md-3 pr-0">
-              <a href="img/portfolio/project2/2.jpg">
-                <img alt="" src="/img/portfolio/project2/2.jpg" />
-              </a>
-            </div>
+      <section className="projdtal">
+        <h2 style={{ display: "none" }}> &nbsp; </h2>
+        <div className="container-fluid">
+          <div className="justified-gallery">
+            <div className="row">
+              <div className="col-md-3 pr-0">
+                <a href="/img/profecientNow/mobilehome.png">
+                  <img alt="" src="/img/profecientNow/mobilehome.png" />
+                </a>
+              </div>
+              <div className="col-md-3 pr-0">
+                <a href="/img/profecientNow/proficientsquare.png">
+                  <img alt="" src="/img/profecientNow/proficientsquare.png" />
+                </a>
+              </div>
 
-            <div className="col-md-3 pr-0">
-              <a href="img/portfolio/project2/3.jpg">
-                <img alt="" src="/img/portfolio/project2/3.jpg" />
-              </a>
-            </div>
-            <div className="col-md-3 pr-0">
-              <a href="img/portfolio/project2/5.jpg">
-                <img alt="" src="/img/portfolio/project2/5.jpg" />
-              </a>
-            </div>
-            <div className="col-12">
-              <a className="bigImage" href="img/portfolio/project2/7.jpg">
-                <img alt="" src="/img/portfolio/project2/7.jpg" className="big-img" />
-              </a>
+              <div className="col-md-3 pr-0">
+                <a href="/img/profecientNow/proficientweb.png">
+                  <img alt="" src="/img/profecientNow/proficientweb.png" />
+                </a>
+              </div>
+              <div className="col-md-3 pr-0">
+                <a href="/img/profecientNow/desktopdashboard.png">
+                  <img alt="" src="/img/profecientNow/desktopdashboard.png" />
+                </a>
+              </div>
+              <div className="col-12">
+                <a
+                  className="bigImage"
+                  href="/img/profecientNow/proficientwide.png"
+                >
+                  <img
+                    alt=""
+                    src="/img/profecientNow/proficientwide.png"
+                    className="big-img"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
   );
 };

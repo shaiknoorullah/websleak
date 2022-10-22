@@ -5,7 +5,10 @@ const ProjectDetails2Header = () => {
   return (
     <section
       className="page-header proj-det bg-img parallaxie valign"
-      style={{ backgroundImage: "url(/img/portfolio/project2/bg.jpg)" }}
+      style={{
+        backgroundImage:
+          "url(/img/profeceintNow/proficientwide200.webp 200w, proficientwide674.webp 674w, proficientwide986.webp 986w, proficientwide1205.webp 1205w, proficientwide1400.webp 1400w)",
+      }}
       data-overlay-dark="4"
     >
       <div className="container">
