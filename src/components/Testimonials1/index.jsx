@@ -51,17 +51,17 @@ class Testimonials1 extends React.Component {
         data-overlay-dark={`${this.props.overlay ? "9" : "0"}`}
       >
         <div className="container position-re">
-        <div className="testImonal">
-          <div className="sec-head custom-font text-center">
-            <h6 className="wow fadeIn" data-wow-delay=".5s">
-              What Peapole Say?
-            </h6>
-            <Split>
-              <h3 className="wow words chars splitting" data-splitting>
-                Testimonials.
-              </h3>
-            </Split>
-            <span className="tbg">Testimonials</span>
+          <div className="testImonal">
+            <div className="sec-head custom-font text-center">
+              <h6 className="wow fadeIn" data-wow-delay=".5s">
+                What Peapole Say?
+              </h6>
+              <Split>
+                <h3 className="wow words chars splitting" data-splitting>
+                  Testimonials.
+                </h3>
+              </Split>
+              <span className="tbg">Testimonials</span>
             </div>
           </div>
           <div
@@ -82,7 +82,7 @@ class Testimonials1 extends React.Component {
                   slidesToShow: 1,
                 }}
               >
-                <div className="item">
+                <div className="item testimonial">
                   <p>
                     Working with Avo digital agency to support our organic and
                     paid social media activity has extended the marketing
@@ -125,7 +125,7 @@ class Testimonials1 extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="item">
+                <div className="item testimonial ">
                   <p>
                     Avo started out managing our SEO efforts, but their
                     scientific approach to digital marketing and the results
@@ -168,7 +168,7 @@ class Testimonials1 extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="item">
+                <div className="item testimonial ">
                   <p>
                     I would highly recommend Avo Digital. I worked with the team
                     on an animation for our U+2018 Click &amp; Collect U+2019
