@@ -116,7 +116,6 @@ class Testimonials1 extends React.Component {
 															<div className="img">
 																<img
 																	src="/img/clients/1.jpg"
-																	layout="fill"
 																	alt=""
 																/>
 															</div>
@@ -135,7 +134,6 @@ class Testimonials1 extends React.Component {
 														<div className="img">
 															<img
 																src="/img/clients/1.jpg"
-																layout="fill"
 																alt=""
 															/>
 														</div>
@@ -170,7 +168,6 @@ class Testimonials1 extends React.Component {
 															<div className="img">
 																<img
 																	src="/img/clients/1.jpg"
-																	layout="fill"
 																	alt=""
 																/>
 															</div>
@@ -189,7 +186,6 @@ class Testimonials1 extends React.Component {
 														<div className="img">
 															<img
 																src="/img/clients/1.jpg"
-																layout="fill"
 																alt=""
 															/>
 														</div>
