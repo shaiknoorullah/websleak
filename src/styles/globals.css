@@ -141,6 +141,11 @@ section.team.section-padding {
 	padding-right: -1rem;
 }
 
+.item.testimonial {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 @media screen and (min-width: 990px) {
 	/* .caption.dig {
         display: flex;
