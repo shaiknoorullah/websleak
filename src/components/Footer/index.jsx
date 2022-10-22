@@ -19,6 +19,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
+          <div className="footerCont">
             <div className="cont">
               <div className="logo">
                 <a href="#0">
@@ -63,6 +64,7 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
+            </div>
             </div>
           </div>
           <div className="col-lg-5 offset-lg-2">

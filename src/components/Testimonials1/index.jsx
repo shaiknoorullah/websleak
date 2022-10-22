@@ -51,6 +51,7 @@ class Testimonials1 extends React.Component {
         data-overlay-dark={`${this.props.overlay ? "9" : "0"}`}
       >
         <div className="container position-re">
+        <div className="testImonal">
           <div className="sec-head custom-font text-center">
             <h6 className="wow fadeIn" data-wow-delay=".5s">
               What Peapole Say?
@@ -61,6 +62,7 @@ class Testimonials1 extends React.Component {
               </h3>
             </Split>
             <span className="tbg">Testimonials</span>
+            </div>
           </div>
           <div
             className="row justify-content-center wow fadeInUp"
