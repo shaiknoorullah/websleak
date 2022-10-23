@@ -142,8 +142,8 @@ section.team.section-padding {
 }
 
 .item.testimonial {
-    padding-left: 1rem;
-    padding-right: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 @media screen and (min-width: 990px) {
@@ -471,7 +471,7 @@ section.team.section-padding {
 	.services .item {
 		text-align: center;
 		/* padding: 45px; */
-		background: #151921;
+		background: rgba(223, 223, 223, 0.05);
 		position: relative;
 		height: fit-content;
 	}
@@ -642,7 +642,7 @@ section.team.section-padding {
 	.services .item {
 		text-align: center;
 		padding: 50px;
-		background: #151921;
+		background: rgba(223, 223, 223, 0.05);
 		position: relative;
 		height: full;
 	}
