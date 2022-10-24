@@ -452,9 +452,9 @@ section.team.section-padding {
 		/* max-width: 400px; */
 		/* max-height: 550px; */
 		width: 100%;
-		padding-right: 3.5rem;
+		/* padding-right: 3.5rem;
 		margin-right: 3rem;
-		margin-left: -1rem;
+		margin-left: -1rem; */
 	}
 	.services.row {
 		display: -webkit-box;
@@ -504,7 +504,7 @@ section.team.section-padding {
 	}
 	.whoAreWe {
 		text-align: center;
-		margin-left: 22rem;
+		/* margin-left: 22rem; */
 	}
 	/* .about.row {
         flex-direction: column;
@@ -530,9 +530,9 @@ section.team.section-padding {
 	.row.headerWrap {
 		margin-left: 0.1rem;
 	}
-	.info {
+	/* .info {
 		margin-left: 3rem;
-	}
+	} */
 	.background.bg-img.section-padding.pb-0 {
 		padding-left: 2.5rem;
 		padding-right: -2.5rem;
@@ -572,26 +572,6 @@ section.team.section-padding {
 	.footerCont {
 		margin-left: 2rem;
 	}
-}
-
-@media screen and (max-width: 780px) {
-	/* .col-lg-4.col-md-6.items.graphic.wow.fadeInUp{
-        margin-left: 0.5rem;
-
-    }
-    .col-lg-4.col-md-6.items.brand.wow.fadeInUp{
-        margin-left: 0.5rem;
-
-    }
-    .col-lg-4.col-md-6.items.web.wow.fadeInUp{
-        margin-left: 0.rem;
-
-    } */
-	/* .fontInMD {
-       display: flex;
-       flex-direction: column;
-       gap: 1rem;
-    } */
 }
 
 /* min-width: 900px */

@@ -31,11 +31,21 @@
   },
   {
     "id": 5,
-    "image": "/img/team/5.jpg",
-    "name": "Legender Mao",
-    "title": "3D Visualization",
+    "image": "/img/team/abid-profile.png",
+    "name": "Md Abid Majid",
+    "title": "Senior UX Designer",
     "facebook": "",
-    "instagram": "",
+    "instagram": "https://www.instagram.com/abiduiux/",
+    "twitter": "",
+    "linkedin": ""
+  },
+  {
+    "id": 6,
+    "image": "/img/team/abid-profile.png",
+    "name": "Md Abid Majid",
+    "title": "Senior UX Designer",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/abiduiux/",
     "twitter": "",
     "linkedin": ""
   }
