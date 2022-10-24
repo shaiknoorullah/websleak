@@ -1172,8 +1172,8 @@ body {
 }
 
 .cursor-inner.cursor-hover {
-	margin-left: -40px;
-	margin-top: -40px;
+	margin-left: -10px;
+	margin-top: -10px;
 	width: 80px;
 	height: 80px;
 	background-color: #dfdfdf;
@@ -1181,10 +1181,10 @@ body {
 }
 
 .cursor-outer {
-	margin-left: -15px;
-	margin-top: -15px;
-	width: 40px;
-	height: 40px;
+	margin-left: -5px;
+	margin-top: -5px;
+	width: 20px;
+	height: 20px;
 	border: 1px solid #dfdfdf;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
